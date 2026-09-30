@@ -1,0 +1,23 @@
+# Dummy .cursorrules for testing
+
+## General
+- Always respond in a concise, professional tone.
+- Prefer small, focused changes over large refactors.
+- Never modify files outside the scope of the request.
+
+## Code style
+- Use 4-space indentation for Python and 2-space indentation for JavaScript/TypeScript.
+- Add type hints to all new Python functions.
+- Name variables descriptively; avoid single-letter names except loop counters.
+
+## Testing
+- Every new function must have at least one unit test.
+- Do not delete or skip existing tests to make a build pass.
+
+## Security
+- Never hardcode secrets, API keys, or tokens.
+- Validate and sanitize all external input.
+
+## Documentation
+- Add a docstring to every public function.
+- Update README.md when behavior changes.
